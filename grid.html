@@ -1,0 +1,75 @@
+
+<style>
+    .container{
+        background-color: powderblue;
+        display: grid;
+        grid-template-rows: 1fr 6fr 1fr;
+        color: white;
+    }
+    .Header{
+       background-color: rgb(74, 213, 188) ;
+       margin: 5px;
+       display: grid;
+       justify-content: center;
+       align-items: center;
+    }
+    .One{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .Aside{
+        background-color: rgb(152, 222, 105);
+         height: 1fr;
+         margin:5px;
+         display: grid;
+       justify-content: center;
+       align-items: center;
+    }
+     .Article{
+        background-color: orange;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        margin: 5px;
+     }
+     .two{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+     .art{
+        display: grid;
+       justify-content: center;
+       align-items: center;
+     }
+     .Image{
+        background-color: rgb(238, 238, 94);
+        margin: 5px;
+        height: 100px;
+        display: grid;
+       justify-content: center;
+       align-items: center;
+     }
+    .footer{
+        background-color: rgb(74, 213, 188);
+        margin: 5px;
+        display: grid;
+       justify-content: center;
+       align-items: center;
+    }
+</style>
+<div class="container">
+   <div class="Header">Header</div>
+   <div class="Middle">
+    <div class="One">
+        <div class="Aside">Aside</div>
+        <div class="Article"><div class="art">
+            Article
+        </div>
+            <div class="two">
+            <div class="Image">Image</div>
+           <div class="Image">Image</div>
+           <div class="Image">Image</div></div>
+        </div>
+    </div>
+   </div>
+   <div class="footer">Footer</div>
+</div>
